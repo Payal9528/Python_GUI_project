@@ -75,7 +75,7 @@ python main.py
 If your project uses a package/module entrypoint:
 
 ```bash
-python -m your_package_name
+python -m Python_GUI_project/simple_GUI_calc.py
 ```
 
 ## Project Structure
