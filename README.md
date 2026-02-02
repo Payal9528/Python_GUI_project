@@ -1,138 +1,76 @@
-# Python GUI Project
+# Python GUI Projects
 
-A small Python GUI project demonstrating a desktop application built with Python. This repository contains example(s) of GUI code, utilities, and instructions to run and develop the app.
+This repository contains two beginner-friendly yet practical Python projects built with **Tkinter** for GUI applications.  
+Both projects are designed to help learners understand how to create interactive desktop applications using Python.
 
-> NOTE: Update the sections below to match your project's specifics:
-- Replace `main.py` with your actual entrypoint script (for example `app.py`).
-- Replace `<GUI_TOOLKIT>` with the GUI framework you are using (Tkinter, PyQt, PySide, Kivy, wxPython, etc.).
-- Add screenshots in the `assets/` or `docs/` folder and update the paths below.
+---
 
-## Table of Contents
+## 🚀 Projects Included
 
-- [Features](#features)
-- [Technologies](#technologies)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Running the App](#running-the-app)
-- [Project Structure](#project-structure)
-- [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+### 1. Calculator (GUI)
+A simple calculator application with a graphical user interface.
 
-## Features
+**Features:**
+- Basic arithmetic operations (Addition, Subtraction, Multiplication, Division).
+- Clear button to reset input.
+- User-friendly layout with buttons for digits and operators.
 
-- Simple and clear GUI structure
-- Example forms / widgets / event handling (customize for your app)
-- Instructions for running and packaging
+**Tech Stack:**
+- Python
+- Tkinter (GUI library)
 
-## Technologies
+---
 
-- Python 3.8+ (recommended)
-- <GUI_TOOLKIT> (e.g., Tkinter, PyQt5, PySide6, Kivy)
-- Optional: packaging tools (PyInstaller) for creating executables
+### 2. Student Management System (GUI + SQLite)
+A complete student management application with database integration.
 
-## Requirements
+**Features:**
+- Add new student records (Name, Roll No, Course, Email, Phone).
+- View all students in a table.
+- Delete student records.
+- Clear input fields easily.
+- Professional GUI with styled table and colored rows.
+- SQLite database for persistent storage.
 
-Create a virtual environment and install dependencies. If a `requirements.txt` file exists, use:
+**Tech Stack:**
+- Python
+- Tkinter (GUI library)
+- SQLite (Database)
 
-```bash
-python -m venv .venv
-source .venv/bin/activate        # macOS / Linux
-.venv\Scripts\activate           # Windows
-pip install -r requirements.txt
-```
+---
 
-If there is no `requirements.txt`, install the GUI toolkit you use, for example:
+## 📂 Project Structure
+├── calculator.py
+├── student_management_system.py
+└── README.md
 
-```bash
-pip install pyqt6
-# or
-pip install pyqt5
-# or
-pip install kivy
-```
+---
 
-## Installation
+## 🛠️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/python-gui-projects.git
 
-Clone the repository:
+---
 
-```bash
-git clone https://github.com/Payal9528/Python_GUI_project.git
-cd Python_GUI_project
-```
+## 🛠️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ #python-gui-projects.git
+cd python-gui-projects
+  #Run the desired project:
+python calculator.py
+  #or
+python student_management_system.py
+🎯 Purpose
+.To practice Python GUI development using Tkinter.
 
-Install dependencies as described in [Requirements](#requirements).
+.To learn how to integrate databases (SQLite) with GUI applications.
 
-## Running the App
+.To build beginner-friendly projects that can be extended further.
+🤝 Contributing
+Contributions are welcome!
+If you have ideas to improve the projects (like adding update/search functionality in Student Management System or advanced calculator features), feel free to fork the repo and submit a pull request.
 
-Run the project entrypoint (replace `main.py` with your entrypoint):
-
-```bash
-python main.py
-```
-
-If your project uses a package/module entrypoint:
-
-```bash
-python -m Python_GUI_project/simple_GUI_calc.py
-```
-
-## Project Structure
-
-A suggested structure (update to match this repository):
-
-```
-Python_GUI_project/
-├── README.md
-├── requirements.txt
-├── main.py                  # entrypoint for the GUI app
-├── app/                     # python package (modules)
-│   ├── __init__.py
-│   ├── ui.py
-│   └── controllers.py
-├── assets/                  # images/screenshots/icons used in the GUI
-├── docs/
-└── tests/
-```
-
-## Development
-
-- Follow PEP8 style guidelines.
-- Run unit tests (if present) using your preferred test runner, e.g.
-
-```bash
-pytest
-```
-
-- To create a standalone executable (example using PyInstaller):
-
-```bash
-pip install pyinstaller
-pyinstaller --onefile main.py
-```
-
-## Contributing
-
-Contributions are welcome. Please:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/my-feature`
-3. Commit changes: `git commit -m "Add my feature"`
-4. Push to fork and open a pull request
-
-Include clear description of changes and screenshots where relevant.
-
-## License
-
-Add a license file (e.g., `LICENSE`) and update this section. If unsure, consider the MIT License:
-
-```
-MIT License
-...
-```
-
-## Contact
-
-Maintainer: Payal9528  
-Project repository: https://github.com/Payal9528/Python_GUI_project
+📜 License
+This project is licensed under the MIT License - see the [Looks like the result wasn't safe to show. Let's switch things up and try something else!] file for details.
