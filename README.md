@@ -49,8 +49,7 @@ A complete student management application with database integration.
 ## 🛠️ How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/python-gui-projects.git
-
+   git clone https://github.com/Payal9528/python-GUIi-projects.git
 ---
 
 ## 🛠️ How to Run
