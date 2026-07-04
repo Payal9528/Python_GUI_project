@@ -191,7 +191,7 @@ Repository: [Payal9528/Python_GUI_project](https://github.com/Payal9528/Python_G
    ```
    python3 Student_manage_sys.py
    ```
-   The application will create a local SQLite database file named `students.db` in the same directory (if it does not already exist).
+   The application will create a local SQLite database file named `students.db` in the same directory .
 
 ## Usage
 - Enter the student's details in the input fields and click "Add Student" to save the record.
@@ -235,3 +235,4 @@ Add a license of your choice (e.g., MIT). If you want, I can add a LICENSE file.
 Payal9528 — GitHub: [https://github.com/Payal9528](https://github.com/Payal9528)
 
 >>>>>>> 23ae82b0a7e49083511c16df44a59329e58e8f87
+
