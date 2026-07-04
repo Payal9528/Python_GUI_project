@@ -5,7 +5,7 @@ Both projects are designed to help learners understand how to create interactive
 
 ---
 
-## 🚀 Projects Included
+## 🚀 Projects Included.
 
 ### 1. Calculator (GUI)
 A simple calculator application with a graphical user interface.
